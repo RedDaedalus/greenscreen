@@ -1,6 +1,6 @@
-import RemoteProtocol from "./protocol";
+import { RemoteProtocol } from "./protocol";
 
-export default class MockProtocol extends RemoteProtocol {
+export class MockProtocol extends RemoteProtocol {
 
     constructor(initalState: any) {
         super();

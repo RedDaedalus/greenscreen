@@ -1,4 +1,4 @@
-import RemoteProtocol from "./RemoteProtocol";
+import { RemoteProtocol } from "./protocol";
 
 export default class SocketProtocol extends RemoteProtocol {
 }

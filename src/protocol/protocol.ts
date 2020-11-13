@@ -1,4 +1,4 @@
-export default abstract class RemoteProtocol {
+export abstract class RemoteProtocol {
 
     readonly data: Map<string, any> = new Map();
     readonly handlers: Map<string, Function> = new Map();
