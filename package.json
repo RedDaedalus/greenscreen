@@ -1,0 +1,22 @@
+{
+  "name": "greenscreen",
+  "version": "2.0.1",
+  "description": "A component based dashboard system for the FIRST Robotics Competition",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc"
+  },
+  "author": "Daedalus",
+  "license": "MIT",
+  "dependencies": {
+    "@types/react": "^16.9.54",
+    "@types/react-dom": "^16.9.9",
+    "bootstrap": "^4.5.3",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.0"
+  }
+}
